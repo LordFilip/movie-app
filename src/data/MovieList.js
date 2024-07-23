@@ -12,21 +12,6 @@ export const topMoviesList = [
   'The Good, the Bad and the Ugly',
   'The Lord of the Rings: The Fellowship of the Ring',
   'Fight Club',
-]
-
-/*
-export const topMoviesList = [
-  'The Shawshank Redemption',
-  'The Godfather',
-  'The Dark Knight',
-  'The Godfather: Part II',
-  '12 Angry Men',
-  "Schindler's List",
-  'The Lord of the Rings: The Return of the King',
-  'Pulp Fiction',
-  'The Good, the Bad and the Ugly',
-  'The Lord of the Rings: The Fellowship of the Ring',
-  'Fight Club',
   'Forrest Gump',
   'Inception',
   'The Empire Strikes Back',
@@ -76,6 +61,7 @@ export const topMoviesList = [
   'Blade Runner',
   'Inglourious Basterds',
   'A Beautiful Mind',
+
   'The Wolf of Wall Street',
   'The Hunt for Red October',
   'The Princess Bride',
@@ -86,6 +72,7 @@ export const topMoviesList = [
   'The Thing',
   'Die Hard',
   'Raiders of the Lost Ark',
+
   'The Big Lebowski',
   'The Usual Suspects',
   'The Lion King',
@@ -107,6 +94,7 @@ export const topMoviesList = [
   'The Graduate',
   'The Godfather',
   'North by Northwest',
+
   'The Maltese Falcon',
   'My Neighbor Totoro',
   'The Hunt for Red October',
@@ -170,6 +158,7 @@ export const topMoviesList = [
   'A Night at the Opera',
   'The Story of Louis Pasteur',
   'The Great Ziegfeld',
+
   'The Lives of a Bengal Lancer',
   'The Life of Emile Zola',
   'The Informer',
@@ -192,7 +181,7 @@ export const topMoviesList = [
   'The Dark Angel',
   'The Broadway Melody',
   'Wings',
-  'The Scandals of 1935',
+
   'The Cheat',
   'The Wedding March',
   'The Gold Rush',
@@ -227,7 +216,6 @@ export const topMoviesList = [
   'The Last Laugh',
   'The Love Parade',
   'The Big Parade',
-  'The Scandals of 1935',
   'The Wedding March',
   'The Merry Widow',
   'The Vagabond',
@@ -244,7 +232,6 @@ export const topMoviesList = [
   'Nosferatu',
   'The Love Parade',
   'The Big Parade',
-  'The Scandals of 1935',
   'The Wedding March',
   'The Merry Widow',
   'The Vagabond',
@@ -257,11 +244,11 @@ export const topMoviesList = [
   'The Last Laugh',
   'The Phantom of the Opera',
   'Metropolis',
+
   'The Cabinet of Dr. Caligari',
   'Nosferatu',
   'The Love Parade',
   'The Big Parade',
-  'The Scandals of 1935',
   'The Wedding March',
   'The Merry Widow',
   'The Vagabond',
@@ -275,5 +262,22 @@ export const topMoviesList = [
   'The Phantom of the Opera',
   'Metropolis',
 ]
+
+/*
+export const topMoviesList = [
+  
+
+ 
+
+ 
+  
+  
+  'The Scandals of 1935',
+  
+  
+  'The Scandals of 1935',
+ 
+  'The Scandals of 1935',
+  
   */
 export default topMoviesList

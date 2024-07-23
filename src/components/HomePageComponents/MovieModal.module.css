@@ -1,0 +1,108 @@
+/* components/MovieModal.module.css */
+
+/* Dark overlay with a hint of purple */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 7, 29, 0.8); /* Very dark purple with high opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  color: white;
+  background: #000000;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 80vw;
+  height: 80vh;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden; /* Ensure content doesn’t overflow */
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.closeButton:hover {
+  background: #ff3333;
+}
+
+.modalBody {
+  display: flex;
+  align-items: stretch; /* Ensure items stretch to fit the height */
+  width: 100%;
+}
+
+.modalPoster {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.modalDetails {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  color: #e0e0e0; /* Light color for better readability on dark background */
+}
+
+.modalTitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.modalGenreRatingYear {
+  margin-bottom: 15px;
+}
+
+.modalPlot {
+  margin-bottom: 15px;
+}
+
+.favouritesButton {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 200px;
+  align-self: flex-start; /* Align button to the start of its container */
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+.favouritesButton:hover {
+  background: #0056b3;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 10px;
+}

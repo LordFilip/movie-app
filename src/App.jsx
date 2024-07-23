@@ -1,3 +1,4 @@
+// App.js
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import TopMovies from './components/HomePageComponents/TopMovies'
@@ -11,7 +12,7 @@ function App() {
         <Route path="/homepage" element={<HomePage />}>
           <Route path="top-movies" element={<TopMovies />} />
           <Route path="search" element={<Search />} />
-          <Route path="favourites" element={<Favorites />} />
+          <Route path="favorites" element={<Favorites />} />
         </Route>
       </Routes>
     </Router>

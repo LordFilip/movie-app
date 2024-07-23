@@ -1,33 +1,47 @@
 /* HomePage.module.css */
+
 .navbar {
   background-color: #333;
-  padding: 1rem;
-  position: sticky; /* Make the navbar sticky */
-  top: 0; /* Aligns the navbar to the top of the viewport */
-  z-index: 1000; /* Ensures the navbar stays on top of other content */
-  width: 100%; /* Ensures the navbar takes the full width of the viewport */
+  padding: 10px 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navList {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 1rem;
+  gap: 20px;
 }
 
 .navItem {
-  display: inline;
+  margin: 0;
 }
 
 .navLink {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 8px 12px;
   border-radius: 4px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .navLink:hover {
   background-color: #555;
+}
+
+.searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
 }
